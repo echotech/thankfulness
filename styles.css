@@ -1,40 +1,67 @@
 body {
-            font-family: Arial, sans-serif;
-            background-color: #FFF2E5;
-            margin: 0;
-            padding: 0;
-        }
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  margin: 0;
+  padding: 0;
+  color: #EAEAEA;
+}
 
-        .container {
-            max-width: 960px;
-            margin: 50px auto;
-            padding: 20px;
-        }
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 20px;
+}
 
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
-        h1 {
-            color: #5CACEE;
-            font-size: 2.5em;
-        }
+h1 {
+  color: #EAEAEA;
+  font-size: 2.5em;
+}
 
-        p {
-            font-size: 1.1em;
-            margin-bottom: 30px;
-            line-height: 1.5;
-        }
+p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: #EAEAEA;
+}
 
-        .download-section {
-            background-color: #5CACEE;
-            padding: 20px 0;
-            text-align: center;
-            border-radius: 10px;
-        }
+.download-section {
+  background-color: #3A3F4B;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
 
-        .app-store-icons img {
-            margin: 0 10px;
-            height: 50px;
-        }
+.app-store-icons img {
+  margin: 0 10px;
+  height: 50px;
+}
+
+button {
+  background-color: #FF6B6B;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #EAEAEA;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #FF8B8B;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #FF6B6B;
+  background-color: #3A3F4B;
+  color: #EAEAEA;
+  border-radius: 5px;
+}
