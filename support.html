@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thankfulness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Header & Navigation -->
+    <header>
+        <div class="header-container">
+            <h1>Thankfulness</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script type="text/javascript">var name = "jed";
+            var domain = "buttonfortheinter";
+            var tld = "net";
+            document.getElementById('email').innerHTML = name + "@" + domain + "." + tld;
+            </script>
+    </header>
+
+
+    <!-- Support Content -->
+    <div class="container">
+        <h2>Support</h2>
+        <p>We are here to help! If you have any questions or issues with the Thankfulness app, please don't hesitate to reach out. Our team is dedicated to ensuring you have the best experience possible.</p>
+
+        <!-- Contact Form -->
+        <form action="mailto:&#106;&#101;&#100;&#046;&#114;&#101;&#105;&#115;&#110;&#101;&#114;&#064;&#098;&#117;&#116;&#116;&#111;&#110;&#102;&#111;&#114;&#116;&#104;&#101;&#105;&#110;&#116;&#101;&#114;&#046;&#110;&#101;&#116;" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
